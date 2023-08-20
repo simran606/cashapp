@@ -1,0 +1,63 @@
+.menubar{
+    padding: 45px 60px;
+}
+
+.eye{
+    padding-right: 50px;
+}
+
+.navbar-nav {
+    align-items: center;
+    text-align: center;
+    padding-left: 12vw;
+    
+}
+
+.nav-link {
+    color: #FFF;
+    font-family: Agrandir;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .menubar{
+        padding: 15px 25px;
+    }
+    
+    .eye{
+        display: none;
+    }
+    
+    .navbar-nav {
+        padding-left: 0px;
+        text-align: center;
+        
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+        line-height: 10px;
+        color: black;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 18vw;
+        right: 6vw;
+        width: 41vw;
+        z-index: 200;
+        border-radius: 3vw;
+        background: white;
+        align-items: center;
+    }
+}

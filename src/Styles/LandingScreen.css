@@ -1,0 +1,60 @@
+.landingdiv{
+    padding-top: 80px;
+    background-color: black;
+}
+
+.landingdiv p{
+    color: #FFF;
+    text-align: center;
+    font-family: Agrandir;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 175px;
+    letter-spacing: 5px;
+}
+
+.b-text{
+    z-index: 1;
+}
+
+.landingdiv img{
+    position: absolute;
+    top: 11vw;
+    right: 41vw;
+    z-index: 2;
+    width: 20vw;
+    height: 31vw;
+}
+
+.a-text{
+    z-index: 100;
+    position: relative;
+    left: 0vw;
+    top: -1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .landingdiv{
+        padding-top: 37vw;
+    }
+    .landingdiv p{
+        font-size: 26vw;
+        line-height: 20vw;
+    }
+    
+    .landingdiv img{
+        position: absolute;
+        right: 33vw;
+        top: 48vw;
+        z-index: 0;
+        width: 38vw;
+        height: 62vw;
+    }
+    
+    .a-text{
+        position: relative;
+        left: 0vw;
+        top: -1vw;
+    }
+}

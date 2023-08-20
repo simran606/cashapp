@@ -1,0 +1,99 @@
+.footer-div{
+    padding-top: 3.7vw;
+    padding-left: 3vw;
+    position: relative;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    /* background-color: black; */
+}
+
+.icon{
+    color: #FFF;
+    margin-right: 20px;
+}
+
+.btn{
+    background-color: black;
+    border: solid 1px #FFF;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    color: #FFF;
+    font-family: Agrandir;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    width: 170px;
+    height: 50px;
+}
+
+.arrow{
+    width: 20px;
+    height: 45px;
+    position: absolute;
+    bottom: 20px;
+    left: 720px;
+}
+
+.footp{
+    color: #B6B6B6;
+    font-family: Mulish;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13px;
+    margin-left: 478px;
+    margin-right: 50px;
+}
+
+.f-icon{
+    width: 24px;
+    height: 24px;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-div{
+        position: initial;
+        padding-top: 100vw;
+        left: 0;
+        z-index: 100;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icon{
+        color: #FFF;
+        margin-right: 20px;
+    }
+    
+    .btn{
+        margin: 25px 10px;
+        width: 44vw;
+        height: 13vw;
+    }
+    
+    .arrow{
+        position: absolute;
+        bottom: 13vw;
+        left: 46vw;
+        height: 20vw;
+        width: 11vw;
+    }
+    
+    .footp{
+        font-size: 2.8vw;
+        margin-left: 4vw;
+        margin-right: 0;
+    }
+    
+    .f-icon{
+        width: 24px;
+        height: 24px;
+        margin: 15px;
+    }
+}
